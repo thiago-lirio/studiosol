@@ -1,18 +1,71 @@
-*{
-  margin: 0;
-  padding: 0;
+* {
+  margin: 0px;
+  padding: 0px;
   font-family: Roboto, sans-serif;
 }
 
-#App{
+#App {
   background-color: #f7f7f7;
 }
 
-header{
+header {
   width: 1140px;
   height: 72px;
-  border-radius: 0px, 0px, 32px, 0px;
-  background-color: blue;
+  border-bottom-right-radius: 32px;
+  background-color: #ffffff;
   color: #555555;
   font-size: 14px;
+  border: outset 1px #f7f7f7;
+  padding: 12px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header h1 span {
+  color: blueviolet;
+}
+
+header #searcher {
+  border: solid 2px #f7f7f7;
+  border-radius: 8px;
+}
+
+header #searcher input {
+  border: 0px none;
+}
+
+header #searcher button {
+  border: none;
+  background-color: transparent;
+}
+
+header h6 {
+  margin: 0px;
+  padding: 0px 0px 0px 12px;
+  font-size: 14px;
+}
+
+header .icons {
+  width: 24px;
+  height: 24px;
+}
+
+header #username {
+  border-left: 1px solid #f7f7f7;
+}
+
+header #photoUser {
+  padding: 2px;
+  border: solid 2px #f7f7f7;
+  border-radius: 25px;
+}
+
+main nav {
+  width: Hug (217px);
+  height: Hug (48px);
+  top: 96px;
+  left: 172px;
+  gap: 20px;
 }
