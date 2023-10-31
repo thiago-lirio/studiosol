@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+#App{
+  background-color: #f7f7f7;
+}
+
+header{
+  width: 1140px;
+  height: 72px;
+  border-radius: 0px, 0px, 32px, 0px;
+  background-color: blue;
+  color: #555555;
+  font-size: 14px;
+}
